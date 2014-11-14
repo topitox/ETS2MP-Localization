@@ -1,5 +1,5 @@
 <?php
-$_lang["download"] = "Descargas"; // Duplicate line (?)
+$_lang["download"] = "Descargas";
 $_lang["home"] = "Home";
 $_lang["status"] = "Estado";
 $_lang["username"] = "Usuario";
@@ -19,7 +19,6 @@ $_lang["already.logged"] = "Ya has efectuado el acceso.";
 $_lang["welcome"] = "Bienvenido";
 $_lang["logout"] = "Salir";
 $_lang["bans"] = "Baneos";
-$_lang["download"] = "Descargas"; // Duplicate line (?)
 $_lang["version"] = "Versión";
 $_lang["update.time"] = "Última actualización";
 $_lang["req.game.version"] = "Versión del juego requerida";
