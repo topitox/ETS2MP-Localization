@@ -1,4 +1,11 @@
 <?php
+//
+// ETS2MP Homepage language file.
+// File:                spanish.php
+// Language name:       Spanish
+// Translated name:     Español
+//
+
 $_lang["download"] = "Descargas";
 $_lang["home"] = "Inicio";
 $_lang["status"] = "Estado";
@@ -14,7 +21,7 @@ $_lang["mainpage.join"] = "Unete a los miles de apasionados a los camiones en li
 $_lang["ts3.advertisement"] = "Interactúa con otros conductores por voz - click aquí para unirte al servidor de TS3.";
 $_lang["facebook.advertisement"] = "Últimas noticias en Facebook.";
 $_lang["registration.blocked"] = "El registro esta bloqueado - estamos trabajando en algunas funcionalidades que nos forzaron a bloquear el registro. Lo desbloquearemos cuando terminemos todo y podamos publicar la nueva versión.";
-$_lang["invalid.username.password"] = "Correo electrónico o contraseña invalida.";
+$_lang["invalid.username.password"] = "e-mail o contraseña invalida.";
 $_lang["already.logged"] = "Ya has iniciado sesión.";
 $_lang["welcome"] = "Bienvenido";
 $_lang["logout"] = "Salir";
@@ -31,14 +38,14 @@ $_lang["website.title"] = "ETS2MP - Mundo virtual de camiones - mod multijugador
 $_lang["cookies.warning"] = "Este sitio hace uso de <a href=\"http://en.wikipedia.org/wiki/HTTP_cookie\">cookies</a>. Continuando la navegación estas aceptando nuestra política de uso de las cookies.";
 $_lang["forum"] = "Foro";
 $_lang["cannot.create.account.when.logged"] = "No puedes crear una nueva cuenta habiendo ya efectuado el acceso.";
-$_lang["successfully.registered"] = "Tu cuenta ha sido registrada correctamente. Revisa tu correo electrónico para activarla.";
+$_lang["successfully.registered"] = "Tu cuenta ha sido registrada correctamente. Revisa tu e-mail para activarla.";
 $_lang["error.unknown"] = "Error desconocido";
-$_lang["credentials.taken"] = "Usuario, correo electrónico o id de Steam ya en uso.";
+$_lang["credentials.taken"] = "Usuario, e-mail o id de Steam ya en uso.";
 $_lang["error.no.steam.data"] = "Para crear una cuenta en ETS2MP debes tener ETS2 asignado a tu cuenta de Steam. Si ya lo tienes en tu librería de Steam verifica que tu perfil sea público. Si esta como privado hazlo público y presiona";
 $_lang["register.steam.info"] = "Para registrarte necesitas acceder con tu cuenta de Steam. Haz click en el botón de abajo para ser redirigido a la página de autenticación de Steam.";
 $_lang["rules.info"] = "Presionando el botón para registrarse estas automáticamente aceptando nuestras reglas de la comunidad. Puedes leerlas haciendo click aquí.";
-$_lang["mail"] = "Correo electrónico";
-$_lang["repeat.mail"] = "Repite correo electrónico";
+$_lang["mail"] = "E-mail";
+$_lang["repeat.mail"] = "Repite e-mail";
 $_lang["new.password"] = "Contraseña nueva";
 $_lang["repeat.new.password"] = "Repite contraseña nueva";
 $_lang["new.password.summary"] = "Si dejas estos campos en blanco tu contraseña no será cambiada.";
@@ -47,7 +54,7 @@ $_lang["repeat.old.password"] = "Repite contraseña vieja";
 $_lang["save.account.data"] = "Guardar los cambios";
 $_lang["edit.account"] = "Modifica tu cuenta";
 $_lang["forgot.password"] = "¿Contraseña olvidada? Haz click <a href=\"index.php?page=resetPassword\">aquí</a>.";
-$_lang["forgot.password.summary"] = "¿Has olvidado tu contraseña? Escribe tu correo electrónico en el campo de abajo y presiona el botón \"Solicitar contraseña\"";
+$_lang["forgot.password.summary"] = "¿Has olvidado tu contraseña? Escribe tu e-mail en el campo de abajo y presiona el botón \"Solicitar contraseña\"";
 $_lang["reminder.button"] = "Solicitar contraseña";
 $_lang["reset.password"] = "Restablecer contraseña";
 $_lang["password.reminder.mail.title"] = "Solicitud para restablecer la contraseña.";
@@ -58,31 +65,45 @@ $_lang["account.activated"] = "Tu cuenta ha sido activada correctamente.";
 $_lang["unable.to.activate"] = "No se ha podido activar tu cuenta; el código de activación es erroneo o la cuenta ya ha sido activada.";
 $_lang["not.activated"] = "Tu cuenta aún no esta activada. Si no has recibido el correo de activación haz click <a href=\"index.php?action=resendActivation\">aquí</a> para reenviarlo.";
 $_lang["force.password.change"] = "Por favor, cambia tu contraseña inmediatamente. Haz click <a href=\"index.php?page=editAccount\">aquí</a> para hacerlo.";
-$_lang["forgot.password.link.sent"] = "Controla tu correo electrónico. Te hemos enviado un link para restablecer la contraseña.";
-$_lang["forgot.password.sent"] = "Controla tu correo electrónico. Te hemos enviado la nueva contraseña.";
+$_lang["forgot.password.link.sent"] = "Controla tu e-mail. Te hemos enviado un link para restablecer la contraseña.";
+$_lang["forgot.password.sent"] = "Controla tu e-mail. Te hemos enviado la nueva contraseña.";
 $_lang["forgot.password.invalid.key"] = "Código de reseteo de contraseña invalido.";
-$_lang["activation.key.resent"] = "Un nuevo código de activación ha sido enviado a tu correo electrónico.";
+$_lang["activation.key.resent"] = "Un nuevo código de activación ha sido enviado a tu e-mail.";
 $_lang["activation.mail.title"] = "Activación de cuenta en ETS2MP.";
 $_lang["activation.mail.content"] = "Hola.\n\nÉste es tu código de activación: {0}\n\nSaludos\nEl equipo de ETS2MP";
 $_lang["no.login"] = "Tienes que estar registrado para acceder a este sitio web.";
-$_lang["settings.saved.with.mail"] = "Cuenta modificada correctamente. Controla la nueva casilla de correo electrónico y activa de nuevo tu cuenta.";
-$_lang["new.email.in.use"] = "Éste correo electrónico ya esta en uso.";
-$_lang["email.does.not.match"] = "El correo electrónico no concuerda.";
-$_lang["invalid.email.format"] = "El correo electrónico no es valido.";
-$_lang["new.password.does.not.match"] = "La contraseña nueva no concuerda.";
+$_lang["settings.saved.with.mail"] = "Cuenta modificada correctamente. Controla la nueva casilla de e-mail y activa de nuevo tu cuenta.";
+$_lang["new.email.in.use"] = "Éste e-mail ya esta en uso.";
+$_lang["email.does.not.match"] = "El e-mail no coincide.";
+$_lang["invalid.email.format"] = "El e-mail no es valido.";
+$_lang["new.password.does.not.match"] = "La contraseña nueva no coincide.";
 $_lang["too.short.password"] = "La contraseña nueva es demasiado corta. Mínimo: 5 caracteres";
-$_lang["old.password.does.not.match"] = "La contraseña vieja no concuerda.";
+$_lang["old.password.does.not.match"] = "La contraseña vieja no coincide.";
 $_lang["settings.saved"] = "Cuenta modificada correctamente.";
 $_lang["invalid.old.password"] = "La contraseña vieja no es valida, no se ha podido modificar tu cuenta.";
 $_lang["no.password.change.forced"] = "Para restablecer la contraseña tienes que salir de la cuenta.";
 $_lang["password.reminder.edit.account"] = "¿Has olvidado tu contraseña? Haz click <a href=\"index.php?page=resetPassword\">aquí</a>.";
 $_lang["contact"] = "Contacto";
-$_lang["your.mail"] = "Tu correo electrónico";
+$_lang["your.mail"] = "Tu e-mail";
 $_lang["content"] = "Contenido";
 $_lang["send"] = "Enviar";
 $_lang["contact.message.sent"] = "Gracias por contactarnos. Recibirás una respuesta lo más pronto posible.";
 $_lang["topic"] = "Asunto";
 $_lang["contact.message.too.short"] = "El mensaje es muy corto. Mínimo 10 caracteres.";
 $_lang["contact.topic.too.short"] = "El asunto es demasiado corto. Mínimo 10 caracteres.";
-$_lang["invalid.mail.forgot.password"] = "No hemos podido encontrar ninguna cuenta con este correo electrónico.";
-$_lang["error.cannot.fetch.steam.api"] = "No se ha podido acceder a la información de tu perfil en Steam. Vuelve a intentarlo más tarde.";
+$_lang["invalid.mail.forgot.password"] = "No hemos podido encontrar ninguna cuenta con este e-mail.";
+$_lang["steamid.in.use"] = "Hemos encontrado una cuenta ya afiliada en ETS2MP con este ID de Steam. Si tienes problemas para registrarte <a href=\"http://ets2mp.com/support/\">crea un ticket de soporte</a>.";
+$_lang["mail.does.not.match"] = "El e-mail que has introducido no coincide.";
+$_lang["support"] = "Soporte";
+$_lang["profile"] = "Perfíl";
+$_lang["group"] = "Grupo";
+$_lang["banned"] = "Baneado";
+$_lang["state"] = "Estado";
+$_lang["account.is.activated"] = "La cuenta esta activa";
+$_lang["account.isnt.actiated"] = "La cuenta no esta activa";
+$_lang["penalty.history"] = "Historial de penalizaciones";
+$_lang["no.punishments"] = "No hay penalizaciones que mostrar.";
+$_lang["date"] = "Fecha";
+$_lang["reason"] = "Motivo";
+$_lang["type"] = "Tipo";
+$_lang["penalty.limit"] = "Solo el dueño de este perfíl puede ver el historial completo de penalizaciones.";
